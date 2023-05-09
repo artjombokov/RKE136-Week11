@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 2rem auto;
+    width: 75%;
+}
+
+.form-container {
+    width: 75%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.result-container {
+    text-align: center;
+}
+
+.movie-data-list {
+    list-style: none;
+    line-height: 2rem;
+}
+.movie-data-list {
+    color: #151515a4;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 450px;
+    border-radius:5%;
+    /*add hover efect*/
+    margin-right: 2rem;
+    transition: all 1s;
+    cursor: pointer;
+}
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 8px 8px -4px #777;
+}
